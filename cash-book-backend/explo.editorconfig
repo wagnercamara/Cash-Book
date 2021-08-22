@@ -1,0 +1,16 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{java,js}]
+charset = "UTF-8"
+
+[*.java]
+indent_style = tab
+indent_size = 4
+
+[{pom.xml}]
+indent_style = tab
+indent_size = 2
